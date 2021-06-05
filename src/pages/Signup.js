@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ImageSection } from "../components";
+import { ImageSection, Navbar } from "../components";
 import { Link } from "react-router-dom";
 
 const Signup = () => {
@@ -55,9 +55,10 @@ const Signup = () => {
 
   return (
     <div className="relative w-full flex items-center justify-between">
+      <Navbar />
       <ImageSection />
-      <div className="w-1/2 h-full px-7 py-3 absolute right-0 top-0">
-        <div className="mx-auto w-10/12">
+      <div className="w-1/2 px-7 py-2 mt-4 absolute right-0 top-0">
+        <div className="m-auto w-10/12">
           <div className="text-center my-5">
             <h1 className="text-5xl mb-1 font-bold">Tell us about you</h1>
             <span className="font-light text-2xl">Personal details</span>
@@ -154,7 +155,7 @@ const Signup = () => {
                   }}
                 >
                   <option disabled selected>
-                    Select your highest attained qualification
+                    Select highest attained qualification
                   </option>
                   <option>First School Leaving Certificate</option>
                   <option>SSCE</option>

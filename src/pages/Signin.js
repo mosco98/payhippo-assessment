@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ImageSection } from "../components";
+import { ImageSection, Navbar } from "../components";
 import { Link } from "react-router-dom";
 
 const Signin = () => {
@@ -24,6 +24,7 @@ const Signin = () => {
   return (
     <div className="relative w-full flex items-center justify-between">
       <ImageSection />
+      <Navbar />
       <div className="w-1/2 h-screen px-7 py-3 absolute right-0 top-0 flex flex-col items-center justify-center">
         <div className="text-center mb-1">
           <h1 className="text-5xl font-bold">Welcome back!</h1>
