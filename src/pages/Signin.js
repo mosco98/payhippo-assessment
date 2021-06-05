@@ -26,7 +26,7 @@ const Signin = () => {
       <ImageSection />
       <Navbar />
       <div className="w-1/2 h-screen px-7 py-3 absolute right-0 top-0 flex flex-col items-center justify-center">
-        <div className="text-center mb-1">
+        <div className="text-center mb-2">
           <h1 className="text-5xl font-bold">Welcome back!</h1>
         </div>
         <div className="w-1/2 container mx-auto">
@@ -34,7 +34,7 @@ const Signin = () => {
             <div>
               <div className="space-y-1 my-3">
                 <label className="block font-semibold" htmlFor="Phone number">
-                  Phone number
+                  Enter phone number
                 </label>
                 <div className="w-full p-3 rounded-md border border-black border-opacity-20 flex items-center">
                   <span className="font-semibold">+234</span>
